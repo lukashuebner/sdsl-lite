@@ -45,7 +45,7 @@ class memory_monitor
         struct mm_alloc {
             timer::time_point timestamp;
             int64_t usage;
-            mm_alloc(timer::time_point t, int64_t u) : timestamp(t), usage(u) {};
+            mm_alloc(timer::time_point t, int64_t u) noexcept : timestamp(t), usage(u) {};
         };
         struct mm_event {
             std::string name;
