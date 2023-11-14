@@ -42,7 +42,7 @@ namespace sdsl
 //! A helper class for bitwise tricks on 64 bit words.
 /*!
 	bits is a helper class for bitwise tricks and
-	techniques. For the basic tricks and techiques we refer to Donald E. Knuth's
+	techniques. For the basic tricks and techniques we refer to Donald E. Knuth's
 	"The Art of Computer Programming", Volume 4A, Chapter 7.1.3 and
 	the informative website of Sean E. Anderson about the topic:
 	http://www-graphics.stanford.edu/~seander/bithacks.html .
